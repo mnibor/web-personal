@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@300&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/* MENU */
+#menu li > a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+/* IMAGEN PRINCIPAL */
+
+footer{
+    background: #0099ff;
+    color: antiquewhite;
+    padding: 40px;
+    min-height: 100px;
+}
+
+footer p {
+    font-weight: bold;
+}
+
+footer i {
+    color: antiquewhite;
+}
+
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+}
+
+
+/* MEDIA QUERIES PANTALLA ANCHA */
+
+/* MEDIA QUERIES PANTALLA SM */
+@media (max-width: 768px) {
+    #intro {
+        width: 90% !important;
+        text-align: center;
+    }
+
+    #sobre-mi {
+        width: 90% !important;
+        text-align: center;
+    }
+
+    #sobre-mi p {
+        width: 100% !important;
+        text-align: center;
+        font-size: fs-4;
+    }
+
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+    
+}
+
+
+/* MEDIA QUERIES PANTALLA XSM */
+@media (max-width: 576px) {
+    .icono-wrap, #perfil {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
