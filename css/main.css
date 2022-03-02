@@ -14,6 +14,13 @@ body {
 
 /* IMAGEN PRINCIPAL */
 
+#sobre-mi {
+    background: #a7a7a7;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 footer{
     background: #0099ff;
     color: antiquewhite;
